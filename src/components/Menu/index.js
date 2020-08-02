@@ -8,7 +8,7 @@ import Button from "../Button";
 function Menu() {
   return (
     <nav className="Menu">
-      <Link href="/">
+      <Link to="/">
         <img src={Logo} alt="Natflix" className="Logo" />
       </Link>
       <Button as={Link} to="/cadastro/video">
